@@ -2,12 +2,12 @@
 //Ejerccicio 4
 //funcion contar
 $numero = (int) 0;
-$cuanto = (int) 0;
+$cuantoEnCuanto = (int) 0;
 
 
 
-function contar(int $numero, int $cuanto ): int{
-  for ($i=0; $i < $numero ; $i++) { 
+function contar(int $numero, int $cuantoEnCuanto): int{
+  for ($i=0; $i < $numero ; $i+= $cuantoEn) { 
     # code...
   }
  
