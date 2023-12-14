@@ -1,10 +1,10 @@
 <?php
 //Charlie te mordio el dede
 //defino variables
-$probabilidad = (bool) true;
-$numRand = rand(0,100);
+//$probabilidad = (bool) false;
 
-function isBitten($numRand):bool{
+function isBitten():bool{
+    $numRand = rand(0,100);
     if ($numRand > 50 ){
         $probabilidad = true;
     }else{
@@ -12,14 +12,12 @@ function isBitten($numRand):bool{
     }
     return $probabilidad;
 }
+
 //Prueba
-if(isBitten($numRand)){
-    $respuesta = "Charlie te mordio el dede";
+if(isBitten()){
+    $respuesta = "Charlie te mordio el dedo!";
 }else{
     $respuesta = "Charlie no te mordio el dedo, has ganado!";
 }
-
 echo $respuesta;
-
-
 ?>
