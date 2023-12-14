@@ -7,10 +7,12 @@ $cuantoEnCuanto = (int) 0;
 
 
 function contar(int $numero, int $cuantoEnCuanto): int{
-  for ($i=0; $i < $numero ; $i+= $cuantoEn) { 
-    # code...
+  for ($i=0; $i <= $numero ; $i += $cuantoEnCuanto) { 
+    echo $i . "</br>";
   }
- 
 }
+
+contar(20, 5);
+
 
 ?>
