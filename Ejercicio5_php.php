@@ -7,12 +7,12 @@ nota es menor a 33%, el estudiante reprobará.
 */
 
 //Definimos variable nota
-$nota = (int) 0;
+$nota = 0;
 
 function gradoEstudiante(int $nota): string {
     if ($nota >= 60){
         $respuesta = "Primera División";
-    }else if($nota>= 45 && $nota <= 59){
+    }else if($nota >= 45 && $nota <= 59){
         $respuesta = "Segunda División";
     }else if($nota > 33 && $nota <= 44){
         $respuesta = "Tercera División";
