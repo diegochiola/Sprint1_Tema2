@@ -12,9 +12,9 @@ $nota = 0;
 function gradoEstudiante(int $nota): string {
     if ($nota >= 60){
         $respuesta = "Primera División";
-    }else if($nota >= 45 && $nota <= 59){
+    }else if($nota >= 45){
         $respuesta = "Segunda División";
-    }else if($nota > 33 && $nota <= 44){
+    }else if($nota > 33){
         $respuesta = "Tercera División";
     }else{
         $respuesta = "Reprobado";
@@ -22,6 +22,7 @@ function gradoEstudiante(int $nota): string {
     return $respuesta;
 }
 
-echo "En base a las notas, el estudiante resulta ser: " . gradoEstudiante($nota);
+$nota = 65;
+echo "En base a la nota del examen, el estudiante resulta ser: " . gradoEstudiante($nota);
 
 ?>

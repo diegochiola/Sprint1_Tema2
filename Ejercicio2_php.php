@@ -1,7 +1,7 @@
 <?php
 //Variables
-$saludo = (string) "Hello, World!";
-$curso = (string) "Aquest és el curs de PHP";
+$saludo = "Hello, World!";
+$curso = "Aquest és el curs de PHP";
 
 //echo $saludo . "</br>";
 $saludoMayusculas = strtoupper($saludo); //pasa todos los caracteres a mayusculas

@@ -1,11 +1,11 @@
 <?php
 //Variables
-$x= (int) 2;
-$y= (int) 5;
+$x= 2;
+$y= 5;
 //no pude definir el tipo de variables por el error que tengo en php
 
-$n = (double) 2.5;
-$m = (double) 10.5;
+$n = 2.5;
+$m = 10.5;
 
 //Ejercicio 3
 //imprimir valor de cada variable
